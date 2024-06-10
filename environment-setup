@@ -1,0 +1,22 @@
+# environment-setup
+
+# Navigate to the directory where you want to create the repository
+cd /Users/nammar/Documents
+
+# Initialize a new Git repository
+git init
+
+# Create a new file (optional)
+touch README.md
+
+# Add the file to the repository
+git add pythonUpdate_packageInstall README.md
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Add a remote repository (replace with your repository URL)
+git remote add origin https://github.com/nyammar/environment-setup.git
+
+# Push the changes to the remote repository
+git push -u origin master
